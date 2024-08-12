@@ -45,7 +45,78 @@
 
 
 ## Настройка Git
+***После установки Git необходимо настроить имя пользователя и электронную почту:***
+
+*git config --global user.name "Azat"
+
+ git config --global user.email "sora6142@gmail.com"*
 
 
 ## Основные команды Git
+<table>
+    <thead>
+        <tr>
+            <th>Команда</th>
+            <th>Описание</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>git init</code></td>
+            <td>Создание нового репозитория Git.</td>
+        </tr>
+        <tr>
+            <td><code>git clone [URL]</code></td>
+            <td>Клонирование удаленного репозитория на локальный компьютер.</td>
+        </tr>
+        <tr>
+            <td><code>git add [файл]</code></td>
+            <td>Добавление изменений в индекс (стейджинг).</td>
+        </tr>
+        <tr>
+            <td><code>git commit -m "[сообщение]"</code></td>
+            <td>Фиксация изменений с добавлением сообщения коммита.</td>
+        </tr>
+        <tr>
+            <td><code>git status</code></td>
+            <td>Показ статуса файлов в рабочем каталоге и индексе.</td>
+        </tr>
+        <tr>
+            <td><code>git log</code></td>
+            <td>Просмотр истории коммитов.</td>
+        </tr>
+        <tr>
+            <td><code>git pull</code></td>
+            <td>Получение и слияние изменений из удаленного репозитория.</td>
+        </tr>
+        <tr>
+            <td><code>git push</code></td>
+            <td>Отправка изменений в удаленный репозиторий.</td>
+        </tr>
+        <tr>
+            <td><code>git branch</code></td>
+            <td>Просмотр списка веток или создание новой ветки.</td>
+        </tr>
+        <tr>
+            <td><code>git checkout [ветка]</code></td>
+            <td>Переключение на указанную ветку.</td>
+        </tr>
+        <tr>
+            <td><code>git merge [ветка]</code></td>
+            <td>Слияние указанной ветки с текущей.</td>
+        </tr>
+        <tr>
+            <td><code>git remote -v</code></td>
+            <td>Просмотр удаленных репозиториев.</td>
+        </tr>
+        <tr>
+            <td><code>git fetch</code></td>
+            <td>Получение изменений из удаленного репозитория без их слияния.</td>
+        </tr>
+        <tr>
+            <td><code>git rebase [ветка]</code></td>
+            <td>Перенос изменений из одной ветки в другую.</td>
+        </tr>
+    </tbody>
+</table>
 
